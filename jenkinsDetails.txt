@@ -1,0 +1,20 @@
+jenkins:
+MAIN admin details:
+IT IS IN THE FOLLOWING LOCATION:
+/Users/suru/.jenkins/secrets/initialAdminPassword
+
+username: admin
+password:
+
+Second admin details:
+
+username: sujata
+password: pass1234
+
+HOW TO RUN JENKINS in MAC BOOK PRO:
+
+a. OPEN TERMINAL
+b. type : brew services start jenkins-lts  and HIT ENTER => it should start JENKINS
+c. OPEN CHROME BROWSER and type: http://localhost:8080
+
+d. TO STOP JENKINS: brew services stop jenkins-lts  and HIT ENTER => it should stop JENKINS
